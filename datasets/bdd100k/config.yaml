@@ -1,0 +1,7 @@
+db:
+    name: bdd100k
+    root_dir: /datasets/bdd100k/images 
+    gt_dir: /datasets/bdd100k/labels/colormaps
+    split: train
+    version: 0
+

@@ -1,0 +1,3 @@
+defaults:
+    - dataset: bdd100k_v0
+

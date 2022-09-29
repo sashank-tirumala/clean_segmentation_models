@@ -1,2 +1,3 @@
-datasets/bdd100k_images
-datasets/bdd100k_sem_seg
+datasets/bdd100k/images
+outputs
+datasets/bdd100k/labels

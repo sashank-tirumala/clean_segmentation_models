@@ -6,7 +6,7 @@ sys.path.append(os.path.dirname(SCRIPT_DIR))
 
 import torch
 import numpy as np
-from datasets.bdd100k_sem_seg import BDD100k_sem_seg
+from datasets.bdd100k.bdd100k_sem_seg import BDD100k_sem_seg
 
 def test_bdd100k_dataset():
     dataset = BDD100k_sem_seg()
