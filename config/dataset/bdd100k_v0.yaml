@@ -3,4 +3,5 @@ root_dir: datasets/bdd100k/images
 gt_dir: datasets/bdd100k/labels/colormaps
 split: train
 version: 0
+num_classes: 20
 

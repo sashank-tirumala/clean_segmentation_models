@@ -1,0 +1,12 @@
+name: unet_default
+encoder:
+    channel_sizes: [3, 64, 128, 256, 512, 1024]
+    maxpool_kernel_size: 2
+    stride : 2
+    block_kernel_size: 3
+decoder:
+    channel_sizes: [1024, 512, 256, 128, 64]
+    upconv_kernel_size: 2
+    block_kernel_size: 3
+    stride: 2
+
